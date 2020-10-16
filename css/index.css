@@ -1,0 +1,387 @@
+/* /* 导航 */
+.navbar-inverse .navbar-nav>li>a {
+	color: #9d9d9d;
+	font-size: 19px;
+}
+
+/* 背景图 */
+.bg-fluid {
+	/* background: url(../img/header-bg.jpg) no-repeat; */
+	background: #222222d6;
+	width: 100%;
+	background-position: 0px -2px;
+	/* background-size: 100%; */
+	position: relative;
+	bottom: 20px;
+}
+
+.banner-info {
+	/* background: rgba(23, 20, 20, 0.58); */
+	margin-top: 4em;
+}
+
+/* 我的介绍 */
+.header-left {
+	padding: 0px;
+
+}
+
+.address {
+	margin-top: 2em;
+	border-top: 1px solid #AFAFAF;
+	padding-left: 0px;
+	padding-top: 17px;
+	list-style: none;
+}
+
+
+h1 {
+	color: #FFFFFF
+}
+
+.address-text {
+	padding-left: 0px;
+}
+
+.address-text li {
+	display: inline-block;
+	font-size: 20px;
+	color: #fff;
+	margin-top: 1em;
+	font-weight: 400;
+}
+
+/* 头像 */
+.hread-right {
+	padding: 48px;
+}
+
+.photo {
+	width: 51%;
+	margin: 0 auto;
+}
+
+.photo img {
+	width: 100%;
+	margin-top: 19px;
+}
+
+/* 关于我 */
+
+.container-fluid {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+}
+
+.about-left {
+	/* background: url(../img/null-506c0dc6d7ac3e56_mr1560745576708.jpg) no-repeat; */
+	background-size: 81%;
+	background-position: 73px -12px;
+}
+
+.about-rigth {
+	min-height: 500px;
+}
+
+.about-left-grid {
+	width: 100%;
+	float: right;
+	margin-right: 10em;
+	min-height: 433px;
+	margin: 0 auto;
+}
+
+.about-left-grid p {
+	color: #666666;
+	font-size: 1em;
+	line-height: 48px;
+	margin-top: 1.5em;
+}
+
+.about-left-grid ul {
+	margin-top: 50px;
+}
+
+.about-left-grid ul li {
+	list-style: none;
+	float: left;
+	margin-left: 21px;
+	border: 1px solid #00a78e;
+	border-radius: 15px;
+	width: 89px;
+	height: 29px;
+	text-align: center;
+	line-height: 28px;
+}
+
+.about-left-grid ul li a {
+	color: #00a78e;
+	text-decoration: none;
+}
+
+/* 我的技能 */
+.did {
+	width: 100%;
+	/* height: 500px; */
+	background-color: #1b242f;
+}
+
+.conts {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.service-head {
+	text-align: center;
+}
+
+.service-head h3 {
+	color: #FFFFFF;
+}
+
+.span-Idid {
+	width: 18%;
+	background: #797575;
+	height: 1px;
+	display: block;
+	margin-top: 26px;
+	position: relative;
+	margin: 23px auto 0px;
+}
+
+.span-Idid:after {
+	content: ' ';
+	position: absolute;
+	background: #00a78e;
+	height: 7px;
+	display: block;
+	width: 73px;
+	top: -4px;
+	left: 77px;
+
+}
+
+.wthree_about_right_grids {
+	margin-top: 30px;
+	height: 360px;
+}
+
+.about_right_grids {
+	height: 150px;
+}
+
+.grids-jineng {
+	width: 100%;
+	height: 150px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.icon-img {
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	border-radius: 64px;
+	background-color: #036103;
+}
+
+.icon-img img {
+	width: 35px;
+	height: 35px;
+	margin: 20px;
+}
+
+.span-text {
+	line-height: 39px;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+
+/* 我的项目 */
+.Myportfolio {
+	width: 100%;
+	background-color: #f4f4f4;
+}
+
+.Myportfolio-head {
+	text-align: center;
+}
+
+.Myportfolio-head h3 {
+	color: #000000;
+}
+
+.Myportfolio-list {
+	height: 76px;
+	width: 100%;
+	margin-top: 5px;
+
+}
+
+.portfolio {
+	margin: 0 auto;
+	width: 64%;
+	height: 66px;
+	display: flex;
+	align-items: center;
+}
+
+.Myportfolio-list ul li {
+	list-style: none;
+	float: left;
+	margin-left: 21px;
+	border: 1px solid #00a78e;
+	border-radius: 15px;
+	width: 109px;
+	height: 35px;
+	text-align: center;
+	line-height: 28px;
+}
+
+.Myportfolio-list ul li a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+	width: 110px;
+	height: 35px;
+	line-height: 15px;
+	color: #555;
+	cursor: default;
+	background-color: #00A78E;
+	border-radius: 15px;
+	color: #FFFFFF;
+	margin: -1px 0px -1px -2px;
+}
+
+.nav-tabs>li.active>a {
+	border-bottom-color: transparent;
+}
+
+.nav-tabs>li>a {
+	margin-right: 2px;
+	line-height: 15px;
+	border: 1px solid transparent;
+	border-radius: 4px 4px 0 0;
+}
+
+.nav-tabs {
+	border-bottom: 0px solid #ddd;
+}
+
+/* 项目展示 */
+.portfolio-show {
+	width: 100%;
+	height: 100%;
+}
+
+.portfolio-all {
+	width: 100%;
+	height: 100%;
+
+}
+
+.show-photo {
+	/* height: 265px; */
+	width: 100%;
+	margin-bottom: 25px;
+
+}
+
+.show-photo img {
+	width: 87%;
+}
+
+.up-show {
+	height: 320px;
+}
+
+/* 联系我 */
+.cell {
+	background-color: #3a4758;
+	height: 521px;
+}
+
+.cellMe {
+	width: 60%;
+	height: 350px;
+	margin: 0 auto;
+	margin-top: 21px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.fanshi-one {
+	width: 33%;
+	height: 348px;
+	background: #fff;
+	margin: 0 auto;
+	float: left;
+}
+
+input {
+	width: 64%;
+	height: 37px;
+	margin: 13px;
+	border: 1px solid #00a78e;
+}
+
+textarea {
+	margin: 13px;
+	width: 80%;
+	height: 80px;
+}
+
+button {
+	width: 80px;
+	height: 35px;
+	border-radius: 15px;
+	background: #00a78e;
+	border: 1px solid #00a78e;
+	margin-left: 10px;
+}
+
+.fanshi-two {
+	width: 33%;
+	height: 348px;
+	background: #fff;
+	margin: 0 auto;
+	float: left;
+}
+
+.ContactWay {
+	width: 100%;
+	height: 116px;
+	border-bottom: 1px solid #ccc;
+
+}
+
+.ContactWay-Email {
+	width: 37%;
+	height: 111px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.ContactWay-Email img {
+	width: 50px;
+	height: 50px;
+}
+
+.text {
+	text-align: center;
+	color: #00A78E;
+	font-size: 20px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 41px;
+}
